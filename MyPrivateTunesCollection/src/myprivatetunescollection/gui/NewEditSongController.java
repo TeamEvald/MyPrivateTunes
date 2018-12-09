@@ -7,7 +7,7 @@ import javafx.fxml.Initializable;
 /**
  * FXML Controller class
  *
- * @author Daniel K. Edwards
+ * @author Mark, Søren & Daniel.
  */
 public class NewEditSongController implements Initializable {
     

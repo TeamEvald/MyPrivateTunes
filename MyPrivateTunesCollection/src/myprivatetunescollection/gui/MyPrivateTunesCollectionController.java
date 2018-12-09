@@ -24,7 +24,7 @@ import javafx.stage.Stage;
 
 /**
  *
- * @author Daniel K. Edwards
+ * @author Mark, Søren & Daniel.
  */
 public class MyPrivateTunesCollectionController implements Initializable {
     private ObservableList list = FXCollections.observableArrayList();

@@ -8,7 +8,7 @@ import javafx.stage.Stage;
 
 /**
  *
- * @author Daniel K. Edwards
+ * @author Mark, Søren & Daniel.
  */
 public class MyPrivateTunesCollection extends Application {
     

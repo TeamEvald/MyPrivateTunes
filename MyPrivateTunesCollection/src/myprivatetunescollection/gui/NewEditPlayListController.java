@@ -12,7 +12,7 @@ import javafx.stage.Stage;
 /**
  * FXML Controller class
  *
- * @author Daniel K. Edwards
+ * @author Mark, Søren & Daniel.
  */
 public class NewEditPlayListController implements Initializable {
     
