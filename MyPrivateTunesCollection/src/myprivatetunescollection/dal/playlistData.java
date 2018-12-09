@@ -3,12 +3,12 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package myprivatetunescollection.data;
+package myprivatetunescollection.dal;
 
 /**
  *
  * @author Mark, Søren & Daniel.
  */
-public class SongData {
+public class playlistData {
     
 }
