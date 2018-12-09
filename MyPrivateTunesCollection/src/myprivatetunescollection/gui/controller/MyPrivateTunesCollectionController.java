@@ -1,4 +1,4 @@
-package myprivatetunescollection.gui;
+package myprivatetunescollection.gui.controller;
 
 import java.io.IOException;
 import java.net.MalformedURLException;

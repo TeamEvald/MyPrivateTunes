@@ -1,4 +1,4 @@
-package myprivatetunescollection.gui;
+package myprivatetunescollection.gui.controller;
 
 import java.net.URL;
 import java.util.ResourceBundle;
