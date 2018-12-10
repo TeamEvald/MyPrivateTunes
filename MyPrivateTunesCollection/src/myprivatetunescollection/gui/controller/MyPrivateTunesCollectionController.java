@@ -26,7 +26,8 @@ import javafx.stage.Stage;
  *
  * @author Mark, Søren & Daniel.
  */
-public class MyPrivateTunesCollectionController implements Initializable {
+public class MyPrivateTunesCollectionController implements Initializable 
+{
     private ObservableList list = FXCollections.observableArrayList();
     
     @FXML
@@ -48,12 +49,14 @@ public class MyPrivateTunesCollectionController implements Initializable {
     @FXML
     private ListView<String> playList;
     
-    public MyPrivateTunesCollectionController(){
+    public MyPrivateTunesCollectionController()
+    {
         
     }
     
     @FXML
-    private void setImageAudioPlayerButtons() throws MalformedURLException{
+    private void setImageAudioPlayerButtons() throws MalformedURLException
+    {
         Path dir = FileSystems.getDefault().getPath("./src/images/Previous-icon.png");
         Image image = new Image(dir.toUri().toURL().toExternalForm());
         previousBtn.setGraphic(new ImageView(image));

@@ -9,6 +9,7 @@ package myprivatetunescollection.dal;
  *
  * @author Mark, Søren & Daniel.
  */
-public class playlistData {
+public class playlistData 
+{
     
 }

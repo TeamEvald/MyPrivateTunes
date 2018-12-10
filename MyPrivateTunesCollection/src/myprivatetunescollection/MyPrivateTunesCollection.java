@@ -10,7 +10,8 @@ import javafx.stage.Stage;
  *
  * @author Mark, Søren & Daniel.
  */
-public class MyPrivateTunesCollection extends Application {
+public class MyPrivateTunesCollection extends Application 
+{
     
     @Override
     public void start(Stage stage) throws Exception {

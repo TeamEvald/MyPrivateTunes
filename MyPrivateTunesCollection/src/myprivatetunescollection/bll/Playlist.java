@@ -9,6 +9,7 @@ package myprivatetunescollection.bll;
  *
  * @author Mark, Søren & Daniel.
  */
-public class Playlist {
+public class Playlist 
+{
     
 }
