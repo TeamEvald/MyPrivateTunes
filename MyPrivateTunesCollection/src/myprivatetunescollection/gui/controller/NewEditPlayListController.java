@@ -12,9 +12,10 @@ import javafx.stage.Stage;
 /**
  * FXML Controller class
  *
- * @author Daniel
+ * @author Mark, Søren & Daniel.
  */
-public class NewEditPlayListController implements Initializable {
+public class NewEditPlayListController implements Initializable 
+{
     
     private MyPrivateTunesCollectionController parent;
     @FXML
@@ -24,25 +25,29 @@ public class NewEditPlayListController implements Initializable {
     @FXML
     private Button cancelBtn;
     
-    public void setParentWindowController(MyPrivateTunesCollectionController parent){
+    public void setParentWindowController(MyPrivateTunesCollectionController parent)
+    {
         this.parent = parent;
     }
     
     @FXML
-    private void handleSaveButtonAction(ActionEvent event){
+    private void handleSaveButtonAction(ActionEvent event)
+    {
         parent.addPlaylist(newPlaylistFld.getText());
         Stage s = (Stage)saveBtn.getScene().getWindow();
         s.close();
     }
     
     @FXML
-    private void handleCancelButtonAction(ActionEvent event){
+    private void handleCancelButtonAction(ActionEvent event)
+    {
         Stage c = (Stage)cancelBtn.getScene().getWindow();
         c.close();
     }
     
     @Override
-    public void initialize(URL url, ResourceBundle rb){
+    public void initialize(URL url, ResourceBundle rb)
+    {
         // TODO
     }
 }

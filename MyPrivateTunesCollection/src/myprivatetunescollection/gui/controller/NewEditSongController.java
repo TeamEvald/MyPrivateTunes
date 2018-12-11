@@ -9,16 +9,19 @@ import javafx.fxml.Initializable;
  *
  * @author Mark, Søren & Daniel.
  */
-public class NewEditSongController implements Initializable {
+public class NewEditSongController implements Initializable 
+{
     
     private MyPrivateTunesCollectionController parent;
     
-    public void setParentWindowController(MyPrivateTunesCollectionController parent){
+    public void setParentWindowController(MyPrivateTunesCollectionController parent)
+    {
         this.parent = parent;
     }
     
     @Override
-    public void initialize(URL url, ResourceBundle rb) {
+    public void initialize(URL url, ResourceBundle rb) 
+    {
         // TODO
     }
 }

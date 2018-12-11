@@ -129,10 +129,13 @@ public class MyPrivateTunesCollectionController implements Initializable
     @Override
     public void initialize(URL url, ResourceBundle rb) 
     {
-        try{
+        try
+        {
             setImagePlaylistSearchButtons();
             setImageAudioPlayerButtons();
-        } catch (IOException ex) {
+        } 
+        catch (IOException ex) 
+        {
             Logger.getLogger(MyPrivateTunesCollectionController.class.getName()).log(Level.SEVERE, null, ex);
         }
     }

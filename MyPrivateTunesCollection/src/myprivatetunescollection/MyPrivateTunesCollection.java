@@ -14,7 +14,8 @@ public class MyPrivateTunesCollection extends Application
 {
     
     @Override
-    public void start(Stage stage) throws Exception {
+    public void start(Stage stage) throws Exception 
+    {
         Parent root = FXMLLoader.load(getClass().getResource("gui/MyPrivateTunesCollection.fxml"));
         
         Scene scene = new Scene(root);
@@ -26,7 +27,8 @@ public class MyPrivateTunesCollection extends Application
     /**
      * @param args the command line arguments
      */
-    public static void main(String[] args) {
+    public static void main(String[] args) 
+    {
         launch(args);
     }
 }
