@@ -75,7 +75,8 @@ public class MyPrivateTunesCollectionController implements Initializable
     }
     
     @FXML
-    private void setImagePlaylistSearchButtons() throws MalformedURLException{
+    private void setImagePlaylistSearchButtons() throws MalformedURLException
+    {
         Path dir = FileSystems.getDefault().getPath("./src/images/Arrow-up.jpg");
         Image image = new Image(dir.toUri().toURL().toExternalForm());
         upBtn.setGraphic(new ImageView(image));
@@ -94,7 +95,8 @@ public class MyPrivateTunesCollectionController implements Initializable
     }
     
     @FXML
-    private void handleNewEditSongButtonAction(ActionEvent event) throws IOException{
+    private void handleNewEditSongButtonAction(ActionEvent event) throws IOException
+    {
         Stage newEditSongWindow = new Stage();
         newEditSongWindow.initModality(Modality.NONE);
         FXMLLoader loader = new FXMLLoader(getClass().getResource("NewEditSong.fxml"));
@@ -109,7 +111,8 @@ public class MyPrivateTunesCollectionController implements Initializable
     }
     
     @FXML
-    private void handleNewEditPlayListButtonAction(ActionEvent event) throws IOException{
+    private void handleNewEditPlayListButtonAction(ActionEvent event) throws IOException
+    {
         Stage newEditPlaylistWindow = new Stage();
         newEditPlaylistWindow.initModality(Modality.NONE);
         FXMLLoader loader = new FXMLLoader(getClass().getResource("NewEditPlayList.fxml"));
@@ -124,7 +127,8 @@ public class MyPrivateTunesCollectionController implements Initializable
     }
     
     @Override
-    public void initialize(URL url, ResourceBundle rb) {
+    public void initialize(URL url, ResourceBundle rb) 
+    {
         try{
             setImagePlaylistSearchButtons();
             setImageAudioPlayerButtons();
@@ -133,7 +137,8 @@ public class MyPrivateTunesCollectionController implements Initializable
         }
     }
     
-    public void addPlaylist(String name){
+    public void addPlaylist(String name)
+    {
         list.removeAll(list);
         String a = "Name \t\t Songs \t   Time";
         list.addAll(a, name);
@@ -141,7 +146,8 @@ public class MyPrivateTunesCollectionController implements Initializable
         //createNewPlayList();
     }
     
-    private void createNewPlayList(){
+    private void createNewPlayList()
+    {
         String b = "Party";
         String c = "Game";
         String d = "Score Music";
